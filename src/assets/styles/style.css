@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
-html, body {
+* {
   margin: 0 auto;
   box-sizing: border-box;
-  font-size: 100%;
-}
-
-
-* {
   font-family: 'Karla', sans-serif;
+  font-size: 100%;
 }
