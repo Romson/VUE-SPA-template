@@ -36,8 +36,9 @@ export default {
 <style lang="scss" scoped>
   .hero-area {
     padding: 115px 0 110px;
-  }
-  .hero-content {
-    text-align: left;
+
+    .hero-content {
+      text-align: left;
+    }
   }
 </style>
