@@ -14,6 +14,7 @@ export default {
 
 <style lang="scss" scoped>
   .header-container {
-    background-color: aliceblue;
+    background-color: #eef4f5;
+    overflow: hidden;
   }
 </style>

@@ -1,25 +1,31 @@
 <template>
   <div id="app">
-    <Header />
+    <TopBar />
+    <Slider />
+    <MainPanelTop />
+    <MainPanel />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+import TopBar from './components/TopBar.vue';
+import Slider from './components/Slider.vue';
+import MainPanelTop from './components/MainPanelTop.vue';
+import MainPanel from './components/MainPanel.vue';
 
 export default {
   name: 'app',
   components: {
-    Header
+    TopBar,
+    Slider,
+    MainPanelTop,
+    MainPanel
   }
 }
 </script>
 
 <style lang="scss">
-html, body {
-margin: 0 auto;
-}
-
+@import './assets/styles/style.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

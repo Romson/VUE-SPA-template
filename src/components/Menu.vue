@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container float-right">
     <ul>
       <li>Home</li>
       <li>About</li>
